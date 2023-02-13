@@ -1,1 +1,1 @@
-# tankTopTaro.wd47-html-form-exercise
+# wd47-html-form-exercise
