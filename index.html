@@ -22,6 +22,25 @@
             <label for="#"><input type="radio" name="account-type" id=""> Business Partner Account</label>
             <label for="#"><input type="checkbox" name="" id="" required> I accept the <a href="#">Terms and Conditions</a></label>
         </fieldset>
+        <fieldset>
+            <label for="#">Upload a profile picture: <input type="file" name="profile-photo" id=""></label>
+            <label for="#">Age: <input type="number" name="age" id="" min="13" max="120"></label>
+            <label for="#">
+                How did you hear from us?
+                <select name="" id="">
+                    <option value="">(select one)</option>
+                    <option value="1">News</option>
+                    <option value="2">Blogs</option>
+                    <option value="3">Forums</option>
+                    <option value="4">Others</option>
+                </select>
+            </label>
+            <label for="#">
+                Provide a bio:
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
