@@ -14,30 +14,30 @@
         <fieldset>
             <label for="#">First Name: <input type="text" name="" id=""></label>
             <label for="#">Last Name: <input type="text" name="" id=""></label>
-            <label for="#">Email: <input type="email" name="" id=""></label>
+            <label for="#">Email Address: <input type="email" name="" id=""></label>
             <label for="#">Password: <input type="password" name="" id="" minlength="8" required pattern="[A-Za-z0-5]{8}"></label>
         </fieldset>
         <fieldset>
             <label for="#"><input type="radio" name="account-type" id=""> Personal Account</label>
             <label for="#"><input type="radio" name="account-type" id=""> Business Partner Account</label>
-            <label for="#"><input type="checkbox" name="" id="" required> I accept the <a href="#">Terms and Conditions</a></label>
+            <label for="#"><input type="checkbox" name="terms-conditions" id="" required> I accept the <a href="#">Terms and Conditions</a></label>
         </fieldset>
         <fieldset>
             <label for="#">Upload a profile picture: <input type="file" name="profile-photo" id=""></label>
             <label for="#">Age: <input type="number" name="age" id="" min="13" max="120"></label>
             <label for="#">
                 How did you hear from us?
-                <select name="" id="">
+                <select name="referrer" id="">
                     <option value="">(select one)</option>
-                    <option value="1">News</option>
-                    <option value="2">Blogs</option>
-                    <option value="3">Forums</option>
-                    <option value="4">Others</option>
+                    <option value="1" name="news">News</option>
+                    <option value="2" name="blogs">Blogs</option>
+                    <option value="3" name="forums">Forums</option>
+                    <option value="4" name="others">Others</option>
                 </select>
             </label>
             <label for="#">
                 Provide a bio:
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="bio" id="" cols="50" rows="10" placeholder="Describe yourself here..."></textarea>
             </label>
         </fieldset>
         <input type="submit" value="Submit">
