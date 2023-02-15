@@ -12,20 +12,20 @@
     <form action="#" method="post">
         <!--    Fieldset    -->
         <fieldset>
-            <label for="#">First Name: <input type="text" name="" id=""></label>
-            <label for="#">Last Name: <input type="text" name="" id=""></label>
-            <label for="#">Email Address: <input type="email" name="" id=""></label>
-            <label for="#">Password: <input type="password" name="" id="" minlength="8" required pattern="[A-Za-z0-5]{8}"></label>
+            <label for="#">First Name: <input type="text" name="first-name" id=""></label>
+            <label for="#">Last Name: <input type="text" name="last-name" id=""></label>
+            <label for="#">Email Address: <input type="email" name="email" id=""></label>
+            <label for="#">Password: <input type="password" name="password" id="" minlength="8" required pattern="[A-Za-z0-5]{8}"></label>
         </fieldset>
         <fieldset>
-            <label for="#"><input type="radio" name="account-type" id=""> Personal Account</label>
-            <label for="#"><input type="radio" name="account-type" id=""> Business Partner Account</label>
-            <label for="#"><input type="checkbox" name="terms-conditions" id="" required> I accept the <a href="#">Terms and Conditions</a></label>
+            <label for="#"><input type="radio" class="inline" name="account-type" id=""> Personal Account</label>
+            <label for="#"><input type="radio" class="inline" name="account-type" id=""> Business Partner Account</label>
+            <label for="#"><input type="checkbox" class="inline" name="terms-conditions" id="" required> I accept the <a href="./terms_conditions.html" target="_blank">Terms and Conditions</a></label>
         </fieldset>
         <fieldset>
             <label for="#">Upload a profile picture: <input type="file" name="profile-photo" id=""></label>
             <label for="#">Age: <input type="number" name="age" id="" min="13" max="120"></label>
-            <label for="#">
+            <label for="#" class="inline">
                 How did you hear from us?
                 <select name="referrer" id="">
                     <option value="">(select one)</option>

@@ -17,6 +17,7 @@ form {
     max-width: 500px;
     max-height: 300px;
     width: 60vw;
+    padding-bottom: 2em;
 }
 
 fieldset {
@@ -34,7 +35,27 @@ label {
     margin: 0.5rem 0;
 }
 
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 textarea {
     color: green;
 }
 
+.inline {
+    width: unset;
+    margin: 0 0.5em 0;
+    vertical-align: center;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
